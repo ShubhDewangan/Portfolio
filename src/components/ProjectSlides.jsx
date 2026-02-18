@@ -121,7 +121,7 @@ const ProjectSlides = () => {
   };
 
   return (
-    <div className="relative h-[600px] md:h-[850px] overflow-visible">
+    <div className="relative h-[620px] md:h-[850px] overflow-visible">
       {projectList.map((project) => (
         <div
           key={project.id}

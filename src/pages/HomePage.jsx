@@ -1,12 +1,12 @@
 import "../styles/homepage.css";
 import SocialLinks from "../components/SocialLinks";
-import dp from '../assets/dp.png'
+import pic from '../assets/pic-2-no-bg.png'
 
 const HomePage = () => {
   return (
     <div className="min-h-screen w-full overflow-x-hidden">
       <div
-        className="hpbgxui flex flex-col md:flex-row items-center justify-center p-10
+        className="hpbgxui flex flex-col md:flex-row items-center justify-center
                       gap-10 md:gap-20 
                       px-6 md:px-16 
                       py-12 md:py-0 
@@ -24,7 +24,9 @@ const HomePage = () => {
                         justify-center
                         shrink-0
                         overflow-hidden"
-        ><img className="opacity-70 h-[80%] md:opacity-30" src={dp} alt="" /></div>
+        ><img className=" scale-104 md:h-0 -translate-x-3 translate-y-15 overflow-hidden" src={pic} alt="" />
+        </div>
+        <img className="absolute h-0 md:h-[90%] z-10 left-30 bottom-0" src={pic} alt="" />
 
         {/* Text Content */}
         <div
@@ -44,7 +46,7 @@ const HomePage = () => {
             </h2>
           </div>
 
-          <p className="text-sm h-auto md:text-base leading-relaxed text-center md:translate-x-5">
+          <p className="text-[15px] h-auto md:text-base leading-relaxed text-center md:translate-x-5">
             I’m a student who finds interest and creative thinking in both
             simple and complicated things — that’s how I learned problem
             solving. I love to paint whenever I see something interesting around

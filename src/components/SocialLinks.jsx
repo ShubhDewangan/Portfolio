@@ -14,7 +14,7 @@ const socials = [
 const SocialLinks = (props) => {
   return (
     <div className='flex -translate-y-5 gap-5 md:gap-10 items-center justify-center'>
-      <h4 className='font-semibold'>{props.text}</h4>
+      <h4 className='font-semibold text-nowrap'>{props.text}</h4>
       <ul className='flex gap-5 md:gap-10'>
         {
             socials.map((social, index) => {

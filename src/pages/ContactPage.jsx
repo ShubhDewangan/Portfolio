@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
   const form = useRef();
-  console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
   
 
   const sendEmail = (e) => {
