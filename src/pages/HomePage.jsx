@@ -35,11 +35,11 @@ const HomePage = () => {
           <div className="flex flex-col gap-6 md:gap-14 md:-translate-x-20">
             <h4 className="font-semibold text-base md:text-xl md:-translate-x-5">Hey, I'm</h4>
 
-            <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold leading-tight">
+            <h1 className="text-[50px] md:text-7xl font-bold leading-tight">
               SHUBH
             </h1>
 
-            <h2 className="text-2xl sm:text-4xl md:text-6xl font-light md:ml-10 md:translate-x-16">
+            <h2 className="text-[40px] md:text-6xl font-light md:ml-10 md:translate-x-16">
               Dewangan
             </h2>
           </div>

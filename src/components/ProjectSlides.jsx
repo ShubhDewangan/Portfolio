@@ -7,6 +7,7 @@ import PasswordManager from "../assets/project_thumbnails/pass-manager-pic.jpg";
 import EmailPasswordValidator from "../assets/project_thumbnails/EPvalidator_thumbnail.png";
 import AdBanner from "../assets/project_thumbnails/AdBanner_thumbnail.png";
 import SearchEngine from "../assets/project_thumbnails/SearchEngine_thumbnail.png";
+import PassManager from "../assets/project_thumbnails/pass-manager-thumbnail.avif"
 
 import gallerVideo from "../assets/project_videos/GalleryVid.mp4";
 import AdBannerVid from "../assets/project_videos/AdBannerVid.mp4";
@@ -42,7 +43,7 @@ const projectList = [
     id: 4,
     className:
       "pframe even mt-60 md:mt-30 absolute md:h-[350px] md:w-[600px] bg-amber-300 rounded-2xl hover:z-10 overflow-hidden",
-    thumbnail: PasswordManager,
+    thumbnail: PassManager,
     video: PasswordManagerVid,
   },
   {
