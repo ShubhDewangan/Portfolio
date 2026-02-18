@@ -33,7 +33,7 @@ const ContactPage = () => {
     <section id="contact" className="h-auto md:w-screen text-gray-800">
       <div className="gr flex flex-col gap-10 md:flex-row m-10 p-9 md:m-40 md:p-20 md:gap-45 rounded-[8px] ">
         <div className="flex flex-col md:text-center gap-15 md:gap-24 md:w-1/2">
-          <h2 className="page-tag text-5xl md:text-6xl font-semibold text-nowrap">Get In Touch</h2>
+          <h2 className="page-tag text-center text-[35px] md:text-6xl font-semibold">Get In Touch</h2>
           <p className=" text-[15px] md:text-2xl w-auto">
             You can give me feedbacks and appreciation for my work through this
             section it would be very helpful!!!

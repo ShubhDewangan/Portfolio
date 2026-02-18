@@ -53,7 +53,7 @@ const Footer = () => {
           </h3>
         </div>
       </div>
-      <h5 className="p-2 text-indigo-300">
+      <h5 className="p-2 text-indigo-300 text-[10px] md:text-[13px]">
         © 2026 Shubh Dewangan. All rights reserved.
       </h5>
     </div>
