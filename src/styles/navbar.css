@@ -1,0 +1,55 @@
+.nv {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  /* border: 1px solid rgba(255, 255, 255, 0.18);    */
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 0 0.5px rgba(255, 255, 255, 0);
+
+  transition: all 0.3s ease;
+}
+
+.nv button {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.nv button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  border-radius: 30%;
+  background: linear-gradient(90deg, #533875, #1a0e2e);
+  transition: width 0.3s ease;
+}
+
+.nv button:hover::after {
+  width: 100%;
+}
+
+.nv button:hover {
+    transform: translateY(2%);
+}
+
+@media (max-width: 640px) {
+  .nv {
+    gap: 1rem;
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+.nv:hover {
+  box-shadow:
+    0 12px 40px rgba(88, 81, 167, 0.35),
+    inset 0 0 1px rgba(255, 255, 255, 0.8);
+}
+

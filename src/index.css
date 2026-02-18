@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+html {
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Space-Grotesk';
+}
+
+@font-face {
+  font-family: 'Liber';
+  src: url('./assets/fonts/LiberRegular.woff2') format('woff2'),
+       url('./assets/fonts/LiberRegular.woff') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TanPearl';
+  src: url('./assets/fonts/tan-pearl.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space-Grotesk';
+  src: url('./assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Anonymous Pro';
+  src: url('./assets/fonts/AnonymousPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.page-tag {
+  font-family: 'Anonymous Pro';
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 35s linear infinite;
+}

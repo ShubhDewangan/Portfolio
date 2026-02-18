@@ -1,0 +1,29 @@
+
+
+.hpbgxui h4 {
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  letter-spacing: 0.15em;
+  opacity: 0.8;
+}
+
+.hpbgxui h1 {
+  font-family: "Liber", serif;
+  font-size: clamp(3rem, 10vw, 6.5rem);
+  line-height: 1;
+}
+
+.hpbgxui h2 {
+  font-family: "TanPearl", serif;
+  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  line-height: 1;
+}
+
+.hpbgxui p {
+  font-family: "Space-Grotesk", sans-serif;
+  font-size: clamp(1rem, 3vw, 1.2rem);
+}
+
+.bgbox {
+  background: radial-gradient(circle at center, #541ac0, #240d57);
+  box-shadow: 5px 5px 60px #7a7878;
+}

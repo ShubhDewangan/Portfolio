@@ -1,0 +1,45 @@
+.ptag h3 {
+  cursor: pointer;
+}
+
+@media (min-width: 786px) { 
+  .ptag h3:hover {
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+  }
+}
+
+.odd {
+  background-color: #2f1c58;
+  overflow: hidden;
+}
+
+.even {
+  background-color: #32418e;
+  overflow: hidden;
+}
+
+/* .odd img, .even img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+} */
+
+@media (min-width: 768px) {
+  .pframe:hover {
+    box-shadow: 5px 5px 35px #000000;
+    transform: translateX(-50px);
+    transition: all 0.8s ease;
+  }
+}
+
+.pframe:checked {
+  box-shadow: 5px 5px 35px #000000;
+  z-index: 10;
+  transition: all 0.8s ease;
+}
+
+.z {
+  z-index: 999;
+}
