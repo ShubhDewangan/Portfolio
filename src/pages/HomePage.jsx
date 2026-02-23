@@ -4,13 +4,13 @@ import pic from '../assets/pic-2-no-bg.png'
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen w-full overflow-x-hidden">
+    <div className="h-screen w-full">
       <div
-        className="hpbgxui flex flex-col md:flex-row items-center justify-center
+        className="hpbgxui flex flex-col md:flex-row items-center justify-center overflow-y-hidden
                       gap-10 md:gap-20 
                       px-6 md:px-16 
-                      py-12 md:py-0 
-                      min-h-[90vh]"
+                      py-12 md:py-2
+                      h-[90vh]"
       >
         {/* Circle */}
         <div
@@ -24,7 +24,7 @@ const HomePage = () => {
                         justify-center
                         shrink-0
                         overflow-hidden"
-        ><img className=" scale-104 md:h-0 -translate-x-3 translate-y-15 overflow-hidden" src={pic} alt="" />
+        ><img className=" scale-104 md:h-0 -translate-x-3 translate-y-15" src={pic} alt="" />
         </div>
         <img className="absolute h-0 md:h-[90%] z-10 left-30 bottom-0" src={pic} alt="" />
 
